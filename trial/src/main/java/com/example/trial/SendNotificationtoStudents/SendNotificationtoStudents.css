@@ -1,0 +1,51 @@
+.notification-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.notification-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.notification-list li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.notification-list li h3 {
+    margin-top: 0;
+}
+
+.notification-date {
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+
+.notification-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.notification-form input[type="text"],
+.notification-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.notification-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.notification-form button:hover {
+    background-color: #3e8e41;
+}

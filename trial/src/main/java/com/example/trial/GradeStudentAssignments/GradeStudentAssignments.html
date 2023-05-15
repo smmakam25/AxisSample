@@ -1,0 +1,29 @@
+
+<div id="grade-form">
+  <link rel="stylesheet" href="GradeStudentAssignments.css">
+  <h2>Grading Form</h2>
+  <form>
+    <div class="form-group">
+      <label for="student-name">Student Name:</label>
+      <input type="text" id="student-name" name="student-name" readonly>
+    </div>
+    <div class="form-group">
+      <label for="assignment">Assignment:</label>
+      <select id="assignment" name="assignment">
+        <option value="assignment1">Assignment 1</option>
+        <option value="assignment2">Assignment 2</option>
+        <option value="assignment3">Assignment 3</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="grade">Grade:</label>
+      <input type="number" id="grade" name="grade" min="0" max="100" required>
+    </div>
+    <div class="form-group">
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  <script src="GradeStudentAssignments.js"></script>
+</div>
